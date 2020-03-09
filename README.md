@@ -20,18 +20,9 @@ PHP module for MySql databases
 # Usage:
 
 	require 'vendor/autoload.php';
-	use Z\Tools;
 	
-	$tools = new Tools();
-	$tools->test('This is a test!');
-
-# Example:
-
-	require 'vendor/autoload.php';
-	use Z\Tools;
-	
-	$tools = new Tools();
-	$tools->test('This is a test!');
+	$zdatabase = new new Z\Database();
+	$zdatabase->test('This is a test!');
 
 
 # Contributing and issues

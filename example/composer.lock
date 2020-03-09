@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "742fedf1ca28e831f9c4de91412b3381",
+    "packages": [
+        {
+            "name": "zguillez/z-database",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zguillez/z-database.git",
+                "reference": "524ff999692876a62ac62b118ec47704c90d2be9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zguillez/z-database/zipball/524ff999692876a62ac62b118ec47704c90d2be9",
+                "reference": "524ff999692876a62ac62b118ec47704c90d2be9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Z\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guillermo de la Iglesia",
+                    "email": "mail@zguillez.io"
+                }
+            ],
+            "description": "PHP module for MySql database",
+            "keywords": [
+                "database",
+                "mysql",
+                "php"
+            ],
+            "time": "2020-03-09T23:21:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
