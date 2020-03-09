@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "serve": "php -S localhost:8000"
+  },
+  "license": "MIT"
+}

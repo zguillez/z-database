@@ -1,0 +1,22 @@
+{
+  "name": "zguillez/z-database",
+  "description": "PHP module for MySql database",
+  "keywords": [
+    "php",
+    "mysql",
+    "database"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillermo de la Iglesia",
+      "email": "mail@zguillez.io"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Z\\": "src/"
+    }
+  }
+}
