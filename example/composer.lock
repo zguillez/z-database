@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8ef2f77d7f7e92d80fefbee056e7487",
+    "content-hash": "1d42c5c8c73fe7ee4db70b74bc6dc57f",
     "packages": [
         {
             "name": "zguillez/z-database",
-            "version": "v0.0.2",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zguillez/z-database.git",
-                "reference": "a27d6de33d9a23c495faf049f211215857620e81"
+                "reference": "16f07975263e5bc54197f3874a961aef2f086bd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zguillez/z-database/zipball/a27d6de33d9a23c495faf049f211215857620e81",
-                "reference": "a27d6de33d9a23c495faf049f211215857620e81",
+                "url": "https://api.github.com/repos/zguillez/z-database/zipball/16f07975263e5bc54197f3874a961aef2f086bd3",
+                "reference": "16f07975263e5bc54197f3874a961aef2f086bd3",
                 "shasum": ""
             },
             "type": "library",
@@ -42,7 +42,7 @@
                 "mysql",
                 "php"
             ],
-            "time": "2020-03-09T23:40:29+00:00"
+            "time": "2020-03-09T23:45:49+00:00"
         }
     ],
     "packages-dev": [],

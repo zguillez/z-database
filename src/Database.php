@@ -8,27 +8,22 @@ class Database
   private $conn;
 
   //----------------------------------------------------------
-  public function __construct()
+  public function __construct($servername, $username, $password, $dbname)
   {
     $this->date = date("Y-m-d H:i:s");
     $this->ip = ($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : 0;
-  }
-
-  //----------------------------------------------------------
-  public function test($data)
-  {
-    var_dump([$this->date, $this->ip, $data]);
-  }
-
-  //----------------------------------------------------------
-  public function connect($servername, $username, $password, $dbname)
-  {
     $this->conn = new \mysqli($servername, $username, $password, $dbname);
     if ($this->conn->connect_error) {
       die("Connection failed: " . $this->conn->connect_error);
     }
 
     return $this->conn;
+  }
+
+  //----------------------------------------------------------
+  public function test($data)
+  {
+    var_dump([$this->date, $this->ip, $data]);
   }
 
   //----------------------------------------------------------

@@ -13,7 +13,7 @@ PHP module for MySql databases
 	//packaje.json
 	{
         "require": {
-            "zguillez/z-database": "^0.0.1"
+            "zguillez/z-database": "^1.0.0"
         }
     }
 
@@ -21,8 +21,9 @@ PHP module for MySql databases
 
 	require 'vendor/autoload.php';
 	
-	$zdatabase = new new Z\Database();
-	$zdatabase->test('This is a test!');
+	$db = new Z\Database('***.***.***.***', 'user', '******', 'database');
+    $data = $db->sql2array('SELECT * FROM users');
+    $db->test($data);
 
 
 # Contributing and issues
@@ -37,6 +38,6 @@ Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Op
 
 # Changelog
 
-### v0.0.1 (Mar 10, 2020) 
+### v1.0.0 (Mar 10, 2020) 
 
 * Initial implementation
