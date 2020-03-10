@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
 //----------------------------
-$db = new Z\Database('***.***.***.***', 'user', '******', 'database');
+$db = new Z\Http('***.***.***.***', 'user', '******', 'database');
 $data = $db->sql2array('SELECT * FROM users');
 $db->test($data);
